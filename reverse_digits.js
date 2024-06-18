@@ -15,12 +15,12 @@ function reverseNumber(number){
         number = Math.floor(number/10);
     }
     if(isNegative){
-        number = -number
+        reversed = -reversed
     }
     return reversed;
 }
-console.log(reverseNumber(340))
-console.log(reverseNumber(-897))
+console.log(reverseNumber(50));
+console.log(reverseNumber(-12));
 
 
  

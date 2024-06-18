@@ -29,15 +29,8 @@ function mostFrequentCharacter(input){
             maxfrequency = frequencyMap[char];
             maxChar = char;
         }
-    }
-    // in the case where the frequentcharacters are more than 1 put them in to an array(list)
-    let frequentCharacters = [];
-    for (let char in frequencyMap){
-        if(frequencyMap[char]=== maxfrequency){
-            frequentCharacters.push(char);
-        }
-    }
-    
+    }  
     return maxChar;
 }
 console.log(mostFrequentCharacter("hello"));
+console.log(mostFrequentCharacter('11189'));
